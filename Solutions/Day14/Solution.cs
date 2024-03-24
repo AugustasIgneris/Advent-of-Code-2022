@@ -271,17 +271,17 @@ static IEnumerable<Node> GetNodes(string line)
     }
 }
 
-static void PrintCave(char[,] cave)
-{
-    for (int y = 0; y < cave.GetLength(1); y++)
-    {
-        for (int x = 0; x < cave.GetLength(0); x++)
-        {
-            Console.Write(cave[x, y]);
-        }
-        Console.WriteLine();
-    }
-}
+//static void PrintCave(char[,] cave)
+//{
+//    for (int y = 0; y < cave.GetLength(1); y++)
+//    {
+//        for (int x = 0; x < cave.GetLength(0); x++)
+//        {
+//            Console.Write(cave[x, y]);
+//        }
+//        Console.WriteLine();
+//    }
+//}
 
 record struct Node(int x, int y)
 {
